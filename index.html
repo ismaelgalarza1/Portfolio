@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg fixed-top nav-justified bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top nav-justified">
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -36,49 +36,53 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="C:\Users\Chad\Desktop\Portfolio\pages\about.html"
-                >About</a
-              >
+              <a class="nav-link" href="#About_me">About</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="C:\Users\Chad\Desktop\Portfolio\pages\contact.html"
-                >Contact</a
-              >
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <!-- main content/hero banner -->
-    <section class="container-fluid section bgimage" id="home">
-      <div class="row">
-        <div
-          class="cole-xxl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text"
-        >
-          <h2 class="hero_title">
-            Hello My name is Ismael Galarza,<br />
-            Welcome!
-          </h2>
-          <p class="hero_detail">
-            I'm an aspiring software developer in North Carolina
-          </p>
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+            <h2 class="hero_title">
+              Hello My name is Ismael Galarza,<br />
+              Welcome!
+            </h2>
+            <p class="hero_detail">
+              I'm an aspiring software developer in North Carolina
+            </p>
+          </div>
         </div>
       </div>
     </section>
+
     <!-- About Section-->
     <section class="container mt-4 pt-4 section" id="About_me">
       <h1 class="text_center">About Me</h1>
       <div class="row mt-4">
-        <div class="col-lg-6"><img class="img-fluid" /></div>
         <div class="col-lg-6">
-          <p>add about me here</p>
+          <figure>
+            <img class="img-fluid" src="images/ish.jpg" class="ish" />
+            <figcaption>
+              Stonehenge Memorial & Klickitat County Veterans Memorial.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-6">
+          <p></p>
           <p class="desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -91,33 +95,111 @@
         </div>
       </div>
     </section>
+
     <!-- Projects -->
-    <section class="container mt-4 pt-4 section" id="About_me">
+    <section class="container mt-3 pt-3 section" id="projects">
       <h1 class="text_center">Projects</h1>
       <div class="row mt-4">
-        <div class="col-lg-6">
+        <div class="col-lg-6 mt-4">
           <div class="card">
-            <img src="images/RPS_game.jpg" class="card-img-top" alt="rps" />
+            <img
+              src="images/RPS_game.jpg"
+              class="card-img-top"
+              alt="rps"
+              style="width: 100%"
+            />
             <div class="card-body">
               <h5 class="card-title">Rock, Paper, Scissors Game</h5>
               <p class="card-text">
                 A simple Rock, Paper, and Scissor Game made with HTML, CSS, and
-                Javascript.<br />
-                <button>
-                  <a
-                    href="https://ismaelgalarza1.github.io/rock-paper-scissors/"
-                    >Link</a
-                  >
-                </button>
+                Javascript. I created this project while learning at the Odin
+                Project Web Development course.<br />
               </p>
+              <div class="text-center">
+                <a
+                  class="btn btn-primary"
+                  href="https://ismaelgalarza1.github.io/rock-paper-scissors/"
+                  role="button"
+                >
+                  Link</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-4">
+          <div class="card">
+            <img
+              src="images/php_user.jpg"
+              class="card-img-top"
+              alt="php"
+              style="width: 100%"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Create, Read, Update, and Delete</h5>
+              <p class="card-text">
+                This project was create as a final exam during my time at ECPI
+                university. It was created in the Model, View, and Controller
+                model. the UI was created in PHP. <br />
+              </p>
+              <div class="text-center">
+                <a
+                  class="btn btn-primary"
+                  href="https://github.com/ismaelgalarza1/CRUD_php"
+                  role="button"
+                >
+                  Link</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- contact -->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6">
+          <form>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control form-control mt-3"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              class="form-control mt-3"
+              placeholder="Subject"
+            />
+            <div class="mb-4 mt-4">
+              <textarea
+                name="text"
+                id="comment"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </form>
+          <button class="btn btn-success mt-3">Contact Me</button>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="soical-icons mt-4"></div>
+      </div>
+    </footer>
 
     <!--Scripts -->
 

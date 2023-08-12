@@ -1,10 +1,14 @@
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
 .section:last-of-type {
     padding-bottom: 4rem;
 }
 
 .bgimage {
     height: 100vh;
-    background: url(images/IMG_3350.JPG);
+    background: url(images/ish2.JPG);
     background-size: cover;
     position: relative;
 }
@@ -25,4 +29,48 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+.ish {
+    width: 100%;
+}
+
+.card-text {
+    height: 180px;
+    cursor: pointer;
+
+}
+
+#footer {
+    background-color: black;
+    text-align: center;
+
+}
+
+#about_me,
+#projects,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width:1200px) {
+    .bgimage {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .hero_text {
+        text-align: left;
+
+    }
+
+
+
 }
