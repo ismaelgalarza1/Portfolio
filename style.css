@@ -1,6 +1,6 @@
-.navbarScroll.navbarDark {
-    background-color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
 
 .section:last-of-type {
     padding-bottom: 4rem;
@@ -14,12 +14,15 @@
 }
 
 .hero_title {
-    padding-top: 20rem;
-    font-size: 3rem;
+    padding-top: 4.5rem;
+    font-size: 6rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
 }
 
 .hero_details {
-    font-size: 2rem;
+    font-size: 5rem;
+    color: black;
 }
 
 .hero_text {
@@ -28,7 +31,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .ish {
@@ -44,6 +49,7 @@
 #footer {
     background-color: black;
     text-align: center;
+    height: 5vh;
 
 }
 
@@ -58,18 +64,40 @@
     padding-bottom: 4rem;
 }
 
+.text-box {
+    width: 50vw;
+}
+
+.fa-linkedin,
+.fa-square-github {
+    font-size: 5vh;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover,
+.fa-square-github:hover {
+    color: #008000;
+}
+
+.linkedin,
+.github {
+    color: white;
+}
+
 @media screen and (min-width:1200px) {
-    .bgimage {
-
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-
     .hero_text {
         text-align: left;
-
+        color: white;
+        font-size: 25px;
     }
+
+    .hero_title {
+        padding-top: 4.5rem;
+        font-size: 10rem;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+
 
 
 
