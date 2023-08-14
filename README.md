@@ -1,3 +1,3 @@
 # Portfolio
 
-Simple personal website using HTML, CSS, JS, and bootstrap 5
+Simple personal website using HTML, CSS, JS, and Bootstrap 5 live: https://ismaelgalarza1.github.io/Portfolio/
