@@ -67,6 +67,11 @@ a:link {
 
 }
 
+.card-img-top{
+    width: 30vw;
+    height: 40vh;
+}
+
 .desc,
 .img_text,
 .heading_text,
