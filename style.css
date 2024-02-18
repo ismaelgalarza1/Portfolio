@@ -69,7 +69,7 @@ a:link {
 
 .card-img-top{
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
 }
 
 .desc,
@@ -125,6 +125,10 @@ a:link {
 .linkedin,
 .github {
     color: white;
+}
+
+.positions-current {
+    border-left: black soild 30px;
 }
 
 @media screen and (min-width:1200px) {
