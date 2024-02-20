@@ -22,3 +22,26 @@ window.addEventListener("load", () => {
     document.body.removeChild("loader")
   })
 })
+
+//darkmode 
+
+// const colorChange = document.getElementById('input-color-change');
+
+// colorChange.addEventListener('click', checkChange)
+
+// function checkChange () {
+//   if (colorChange.checked){
+//     darkModeEnabled()
+//   } else {
+//     darkModeDisabled()
+//   }
+// }
+
+// function darkModeEnabled () {
+//   document.body.classList.add('dark-mode')
+// }
+
+// function darkModeDisabled () {
+//   document.body.classList.remove('dark-mode')
+
+// }

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+
 a:link {
     text-decoration: none;
     cursor: pointer;
@@ -92,7 +93,6 @@ a:link {
     background-color: black;
     text-align: center;
     height: 5vh;
-
 }
 
 
@@ -154,6 +154,11 @@ a:link {
     border-radius: 50%;
     animation: loading 0.75s ease infinite;
 }
+/* .dark-mode {
+    --clr-background: black;
+    --title-text-color: white;
+    
+} */
 @keyframes loading {
     from{
         transform: rotate(0turn);
